@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0BB78C196DCD5200868DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BB78B196DCD5200868DF3 /* AppDelegate.swift */; };
+		3D0BB78E196DCD5200868DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BB78D196DCD5200868DF3 /* ViewController.swift */; };
+		3D0BB791196DCD5200868DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0BB78F196DCD5200868DF3 /* Main.storyboard */; };
+		3D0BB793196DCD5200868DF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0BB792196DCD5200868DF3 /* Images.xcassets */; };
+		3D0BB79F196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BB79E196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D0BB799196DCD5200868DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D0BB77E196DCD5200868DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0BB785196DCD5200868DF3;
+			remoteInfo = PubNubMessageEncryptionTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D0BB786196DCD5200868DF3 /* PubNubMessageEncryptionTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PubNubMessageEncryptionTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0BB78A196DCD5200868DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0BB78B196DCD5200868DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D0BB78D196DCD5200868DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D0BB790196DCD5200868DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D0BB792196DCD5200868DF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D0BB798196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PubNubMessageEncryptionTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0BB79D196DCD5200868DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0BB79E196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubNubMessageEncryptionTutorialTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0BB783196DCD5200868DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0BB795196DCD5200868DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0BB77D196DCD5200868DF3 = {
+			isa = PBXGroup;
+			children = (
+				3D0BB788196DCD5200868DF3 /* PubNubMessageEncryptionTutorial */,
+				3D0BB79B196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests */,
+				3D0BB787196DCD5200868DF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0BB787196DCD5200868DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0BB786196DCD5200868DF3 /* PubNubMessageEncryptionTutorial.app */,
+				3D0BB798196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D0BB788196DCD5200868DF3 /* PubNubMessageEncryptionTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				3D0BB78B196DCD5200868DF3 /* AppDelegate.swift */,
+				3D0BB78D196DCD5200868DF3 /* ViewController.swift */,
+				3D0BB78F196DCD5200868DF3 /* Main.storyboard */,
+				3D0BB792196DCD5200868DF3 /* Images.xcassets */,
+				3D0BB789196DCD5200868DF3 /* Supporting Files */,
+			);
+			path = PubNubMessageEncryptionTutorial;
+			sourceTree = "<group>";
+		};
+		3D0BB789196DCD5200868DF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0BB78A196DCD5200868DF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D0BB79B196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0BB79E196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests.swift */,
+				3D0BB79C196DCD5200868DF3 /* Supporting Files */,
+			);
+			path = PubNubMessageEncryptionTutorialTests;
+			sourceTree = "<group>";
+		};
+		3D0BB79C196DCD5200868DF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D0BB79D196DCD5200868DF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D0BB785196DCD5200868DF3 /* PubNubMessageEncryptionTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0BB7A2196DCD5200868DF3 /* Build configuration list for PBXNativeTarget "PubNubMessageEncryptionTutorial" */;
+			buildPhases = (
+				3D0BB782196DCD5200868DF3 /* Sources */,
+				3D0BB783196DCD5200868DF3 /* Frameworks */,
+				3D0BB784196DCD5200868DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PubNubMessageEncryptionTutorial;
+			productName = PubNubMessageEncryptionTutorial;
+			productReference = 3D0BB786196DCD5200868DF3 /* PubNubMessageEncryptionTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D0BB797196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0BB7A5196DCD5200868DF3 /* Build configuration list for PBXNativeTarget "PubNubMessageEncryptionTutorialTests" */;
+			buildPhases = (
+				3D0BB794196DCD5200868DF3 /* Sources */,
+				3D0BB795196DCD5200868DF3 /* Frameworks */,
+				3D0BB796196DCD5200868DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0BB79A196DCD5200868DF3 /* PBXTargetDependency */,
+			);
+			name = PubNubMessageEncryptionTutorialTests;
+			productName = PubNubMessageEncryptionTutorialTests;
+			productReference = 3D0BB798196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D0BB77E196DCD5200868DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = PubNub;
+				TargetAttributes = {
+					3D0BB785196DCD5200868DF3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3D0BB797196DCD5200868DF3 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3D0BB785196DCD5200868DF3;
+					};
+				};
+			};
+			buildConfigurationList = 3D0BB781196DCD5200868DF3 /* Build configuration list for PBXProject "PubNubMessageEncryptionTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D0BB77D196DCD5200868DF3;
+			productRefGroup = 3D0BB787196DCD5200868DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D0BB785196DCD5200868DF3 /* PubNubMessageEncryptionTutorial */,
+				3D0BB797196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D0BB784196DCD5200868DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0BB791196DCD5200868DF3 /* Main.storyboard in Resources */,
+				3D0BB793196DCD5200868DF3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0BB796196DCD5200868DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D0BB782196DCD5200868DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0BB78E196DCD5200868DF3 /* ViewController.swift in Sources */,
+				3D0BB78C196DCD5200868DF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0BB794196DCD5200868DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0BB79F196DCD5200868DF3 /* PubNubMessageEncryptionTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D0BB79A196DCD5200868DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0BB785196DCD5200868DF3 /* PubNubMessageEncryptionTutorial */;
+			targetProxy = 3D0BB799196DCD5200868DF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D0BB78F196DCD5200868DF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0BB790196DCD5200868DF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D0BB7A0196DCD5200868DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D0BB7A1196DCD5200868DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D0BB7A3196DCD5200868DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PubNubMessageEncryptionTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D0BB7A4196DCD5200868DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PubNubMessageEncryptionTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D0BB7A6196DCD5200868DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PubNubMessageEncryptionTutorial.app/PubNubMessageEncryptionTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PubNubMessageEncryptionTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		3D0BB7A7196DCD5200868DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PubNubMessageEncryptionTutorial.app/PubNubMessageEncryptionTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PubNubMessageEncryptionTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D0BB781196DCD5200868DF3 /* Build configuration list for PBXProject "PubNubMessageEncryptionTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0BB7A0196DCD5200868DF3 /* Debug */,
+				3D0BB7A1196DCD5200868DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0BB7A2196DCD5200868DF3 /* Build configuration list for PBXNativeTarget "PubNubMessageEncryptionTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0BB7A3196DCD5200868DF3 /* Debug */,
+				3D0BB7A4196DCD5200868DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D0BB7A5196DCD5200868DF3 /* Build configuration list for PBXNativeTarget "PubNubMessageEncryptionTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0BB7A6196DCD5200868DF3 /* Debug */,
+				3D0BB7A7196DCD5200868DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D0BB77E196DCD5200868DF3 /* Project object */;
+}
